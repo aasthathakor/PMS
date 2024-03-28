@@ -1,0 +1,13 @@
+.container {
+    padding: 5px;
+    display: flex;
+    align-items: center; /* Vertically centers the flex items */
+    justify-content: flex-start; /* Aligns items to the start of the container, ensuring they are on the left */
+    gap: 10px; /* Space between each item */
+    margin: 5px 0; /* Margin above and below the container */
+    border-radius: 10px; /* Rounded corners of the container */
+}
+
+.container:hover, .active {
+    background-color: #2e374a; /* Changes the background color on hover and for active state */
+}

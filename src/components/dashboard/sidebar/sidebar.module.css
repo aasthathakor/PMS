@@ -1,0 +1,56 @@
+
+.sidebarContainer {
+    color: #ffffff;
+    padding: 10px;
+    min-height: 100vh; 
+    margin-left:5px ;
+}
+
+.userProfile {
+    align-items: center;
+    gap: 15px;
+}
+
+.userImage {
+    border-radius: 50%; 
+}
+
+.userName, .userRole {
+    margin: 0; 
+    color: #343a40;
+}
+
+.listGroupItem {
+    background-color: transparent; 
+    border: none; }
+
+.logoutButton {
+    width: 100%; /* Full-width button */
+    color: #ffffff; /* White text color */
+    border-color: #ffffff; /* White border */
+}
+
+.logoutButton:hover {
+    color: #343a40; /* Dark text color on hover */
+    background-color: #ffffff; /* White background on hover */
+}
+
+
+.icon {
+    color: #ffffff;
+}
+
+.sidebarContainer a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+.sidebarContainer a:hover {
+    color: #ffffff; 
+    background-color: transparent; 
+}
+
+.sidebarContainer, .sidebarContainer * {
+    color: #ffffff; 
+}
+
